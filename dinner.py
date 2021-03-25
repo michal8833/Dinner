@@ -90,7 +90,7 @@ for trial in range(1000): # do 1000 simulations and choose the result(max sum of
         maxSumSatWith = sumSatWith
         resTables = tables[:]
 
-# print the result in format "<seat>:<person_id>"
+# print the result in format "<table_letter><seat_number>:<person_id>"
 tableLetter = "A"
 for table in resTables:
     for i in range(len(table)):
